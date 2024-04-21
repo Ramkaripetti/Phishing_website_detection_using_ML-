@@ -5,9 +5,23 @@ The Internet has become an indispensable part of our life, However, It also has 
 
 
 ## Installation
+### Better make use of python 3.8 for better running of code.
 The Code is written in Python 3.8.10. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after cloning (https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
+### If you are using VisualStudio Code, create a virrtual environment and then install the requirements. If done so, all requirements gets installed in the virtual environment,when needed we can directly activate the environment.
+###To create virtual environment, run th following command:
+```bash
+virtualenv myvenv
+```
+```bash
+myvenv\Scripts\activate
+```
+###After creating virtual environment, install the requirements:
 ```bash
 pip install -r requirements.txt
+```
+###Once all the requirements are installed, we can directly run app.py
+```bash
+python app.py
 ```
 
 ## Directory Tree 
